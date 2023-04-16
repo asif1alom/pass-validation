@@ -18,6 +18,9 @@ input{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-top: 100px;
   
    
   
@@ -58,10 +61,36 @@ input:focus{
 p{
     margin: 0!important;
 }
-.info{
+.info1,.info2,.info3{
     color: red;
     display: none;
+    margin: 0px;
 }
 .show{
     display: block;
+}
+.ndv{
+    position: relative;
+    
+}
+#e{
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    transform: translateY(-50%);
+    margin: 0px;
+}
+.bdv{
+    position: relative;
+    
+}
+#f{
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    transform: translateY(-50%);
+    margin: 0px;
+}
+.fa{
+color: #9b9b9b;
 }
