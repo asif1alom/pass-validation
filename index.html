@@ -12,16 +12,26 @@
 <body>
 
     <div class="container">
-        <form action="">
-            <input type="email" class="email">
-            <input type="password" class="pass">
-            <input type="password" class="Cpass">
+        <form action="" class="frm">
+            <h4>Sign Up</h4>
 
-            <button type="submit">Submit</button>
+            <input type="email" placeholder="Enter your Email" class="email ">
+
+            <p class="info"> <i class="fa fa-circle-info"></i> Please Enter a Valid Email Address</p>
+            <br>
+            <input type="password" placeholder="Create Password" class="pass">
+            <i class="fa fa-eye" id="e"></i>
+            <p class="info "> <i class="fa fa-circle-info"></i> Password must contain </p>
+            <br>
+            <input type="password" placeholder="Confirm Password" class="Cpass">
+            <p class="info"> <i class="fa fa-circle-info"></i> Password Doesen't Macth</p>
+            <br>
+
+            <button type="submit" class="sub">Submit</button>
 
         </form>
     </div>
-
+    <script src="https://kit.fontawesome.com/ec75bd87cf.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
 

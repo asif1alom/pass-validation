@@ -1,0 +1,67 @@
+
+body{
+    font-family: "roboto";
+    background-color: rgb(15, 9, 27);
+}
+
+
+input{
+    
+    margin-bottom: 20px;
+    width: 250px;
+    
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  
+   
+  
+}
+.frm{
+   background-color: #fff;
+    border-radius: 10px;
+   padding: 50px;
+   
+    
+}
+input{
+    padding: 15px  10px;
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    
+}
+input:focus{
+    outline: none;
+}
+
+.sub{
+    background-color: rgb(46, 161, 98);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+.invalid{
+    border-color: red!important;
+}
+.valid{
+    border-color:rgb(46, 161, 98) ;
+}
+
+p{
+    margin: 0!important;
+}
+.info{
+    color: red;
+    display: none;
+}
+.show{
+    display: block;
+}
